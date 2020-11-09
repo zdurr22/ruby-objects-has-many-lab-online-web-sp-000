@@ -25,4 +25,8 @@ class Author
     @@post_count
   end
 
+  def posts
+    @posts
+  end
+
 end
