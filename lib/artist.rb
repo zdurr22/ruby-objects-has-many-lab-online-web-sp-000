@@ -29,7 +29,7 @@ class Artist
   end
 
   def songs
-    @@all
+    Song.all
   end
 
 end
