@@ -27,5 +27,7 @@ class Artist
     @@song_count
   end
 
+  binding.pry
+
 
 end
