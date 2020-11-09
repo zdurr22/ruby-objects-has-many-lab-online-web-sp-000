@@ -3,7 +3,7 @@ class Song
 
 
   @@song_count = 0
-  
+
   def initialize(name)
     @name = name
     @songs = []
@@ -12,11 +12,11 @@ class Song
 
 
   def save
-    @@all << self
+    @songs << self
   end
 
   def self.all
-    @@all
+    @songs
   end
 
   def artist_name
