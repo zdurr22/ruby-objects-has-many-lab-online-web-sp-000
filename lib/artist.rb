@@ -2,13 +2,13 @@ require 'pry'
 class Artist
 
   @@song_count = 0
+  @songs = []
 
   attr_accessor :name, :songs, :artist
 
 
   def initialize(name)
     @name = name
-    @songs = []
   end
 
   def add_song(song)
