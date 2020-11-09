@@ -14,4 +14,8 @@ class Artist
     @@all << self
   end
 
+  def songs
+    @@all
+  end
+
 end
